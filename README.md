@@ -8,7 +8,7 @@ I hope that this collection of TIL's evolves to have a data science flavor.
 
 ## Tags
 
-* [Command Line](#command)
+* [Command Line](#command-line)
 * [Python](#python)
 * [R](#r)
 
