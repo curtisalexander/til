@@ -22,6 +22,7 @@ Currently, the collection contains lots of system administration tasks.  I hope 
 ### Command Line
 * [ag - Building From Source](cl/ag-building-from-source.md)
 * [ag - Search for File Extension](cl/ag-search-file-ext.md)
+* [tesseract - Extract Text From a PNG](cl/tesseract-extract-text-from-png.md)
 
 ### [Standing on the shoulders](https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants)
 I previously used an amalgam of private gists, text files, and (yes) post-it notes to manage these types of small writeups.  Putting everything into is own repo was inspired by (and copied from)
