@@ -1,8 +1,12 @@
 # TIL
 
-Today I learned something that doesn't require a longer writeup, doesn't belong in its own repo, and isn't something I would use to develop a script.
+Today I learned something that...
 
-I hope that this collection of TIL's evolves to have a data science flavor.
+* doesn't require a longer writeup
+* doesn't belong in its own repo
+* isn't something I would use to develop a script
+
+Currently, the collection contains lots of system administration tasks.  I hope that this collection of TIL's evolves to have a data science flavor.
 
 ---
 
@@ -11,6 +15,7 @@ I hope that this collection of TIL's evolves to have a data science flavor.
 * [Command Line](#command-line)
 * [Python](#python)
 * [R](#r)
+* [Windows](#windows)
 
 ---
 
