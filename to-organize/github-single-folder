@@ -1,0 +1,13 @@
+# Description:
+#   Download a single folder (for instance just downloading sample data) from a github repository
+
+# Source:
+#   http://jasonkarns.com/blog/subdirectory-checkouts-with-git-sparse-checkout/
+
+mkdir <folder_name> && cd <folder_name>
+git init
+git remote add origin <url>
+git config core.sparsecheckout true
+echo "some/dir" > .git/info/sparse-checkout
+echo "another/sub/tree" >> .git/info/sparse-checkout
+git pull origin master --depth=1

@@ -1,0 +1,34 @@
+# Description:
+#   Install and setup mariadb on RHEL7
+
+# Caveat:
+#   If previously had mysql installed then...
+sudo remove mariadb mariadb-server mysql mysql-server
+sudo rm -rf /var/lib/mysql
+
+# Install and Setup
+sudo yum install mariadb-server mariadb -y
+sudo systemctl enable mariadb
+sudo systemctl start mariadb
+mysql_secure_installation # <blank> initial root password
+                          # Y to all questions
+mysql -u root -p # test
+
+# Common commands
+sudo systemctl start mariadb.service # start
+sudo systemctl stop mariadb.service # stop
+sudo systemctl restart mariadb.service # restart
+sudo systemctl status mariadb.service # status
+sudo systemctl enable mariadb.service # enable at boot
+sudo systemctl disable mariadb.service # disable at boot
+sudo systemctl is-active mariadb.service # active status
+
+# Firewall
+# Add
+sudo firewall-cmd --permanent --zone=public --add-service=mysql
+# Remove
+sudo firewall-cmd --permanent --zone=public --remove-service=mysql
+# Reload
+sudo firewall-cmd --reload
+# List
+sudo firewall-cmd --list-all

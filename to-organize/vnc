@@ -1,0 +1,11 @@
+# Start
+sudo service vncserver@:1 start
+sudo service vncserver@:1 force-reload
+# Kill
+vncserver -kill :1
+# List
+vncserver -list
+# Firewall adjustments
+sudo firewall-cmd --add-rich-rule='rule family="ipv4" source address="10.44.0.0/16" service name="vnc-server" accept'
+sudo firewall-cmd --remove-rich-rule='rule family="ipv4" source address="10.44.0.0/16" service name="vnc-server" accept'
+sudo firewall-cmd --list-all

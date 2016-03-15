@@ -1,0 +1,14 @@
+Fix below is implemented as the script ~/bin/pip-cert-fix
+
+
+
+
+https://github.com/Homebrew/linuxbrew/issues/420
+
+brew install pyenv
+pyenv install 2.7.10
+Installed Python-2.7.10 to /home/user/.pyenv/versions/2.7.10
+cp /home/user/.pyenv/versions/2.7.10/lib/python2.7/lib-dynload/_ssl.so /home/user/.linuxbrew/Cellar/python/2.7.10/lib/python2.7/lib-dynload
+
+rm /home/user/.linuxbrew/Cellar/python/2.7.10/lib/python2.7/lib-dynload/_ssl_failed.so
+chmod 444 /home/user/.linuxbrew/Cellar/python/2.7.10/lib/python2.7/lib-dynload/_ssl.so

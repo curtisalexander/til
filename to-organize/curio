@@ -1,0 +1,3 @@
+conda skeleton pypi curio
+conda build --py 3.5 curio
+conda install --use-local curio

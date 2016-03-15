@@ -1,0 +1,4 @@
+# Firewall
+sudo firewall-cmd --add-rich-rule='rule family="ipv4" source address="10.44.0.0/16" port port="5000" protocol="tcp" accept'
+
+sudo firewall-cmd --list-all

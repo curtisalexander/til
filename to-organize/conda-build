@@ -1,0 +1,12 @@
+# If conda doesn't have a package, then you can 
+#   build a conda package from a package on pypi
+#   (pip installable). 
+
+conda skeleton pypi packagename OR conda skeleton pypi packagename --recursive
+conda build packagename
+conda install --use-local packagename
+
+# After `conda install --use-local packagename`, you
+#   can upload data to anaconda.org / binstar.org.
+#   Directions for doing so appear as part of the
+#   standard out generated after running `conda install...`

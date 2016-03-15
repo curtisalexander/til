@@ -1,0 +1,7 @@
+# For explanation of the awk commands, see ~/usage/awk
+
+## Mount
+sudo mount.cifs -o username=myuser,uid=`id | awk '{patsplit($0,a,"[[:digit:]]+"); print a[1]}'`,gid=`id | awk '{patsplit($0,a,"[[:digit:]]+"); print a[1]}'` //network/dir/to/mount /mnt/mynetworkdir
+
+## Unmount
+sudo umount /mnt/mynetworkdir

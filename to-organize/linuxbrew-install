@@ -1,0 +1,16 @@
+# https://github.com/Homebrew/linuxbrew/wiki/Standalone-Installation#use-a-compiler-other-than-gcc
+
+# Update path (in .zprofile) so that ~/.linuxbrew/bin is before /usr/bin and /usr/local/bin
+
+# Update environment variables (in .zshrc)
+export HOMEBREW_PREFIX="~/.linuxbrew"
+export HOMEBREW_CC="gcc-4.4"
+
+# Setup links
+ln -s ~/.linuxbrew/lib ~/.linuxbrew/lib64
+ln -s /usr/lib64/libstdc++.so.6 /lib64/libgcc_s.so.1 ~/.linuxbrew/lib/
+
+# From https://github.com/Homebrew/linuxbrew/issues/137
+ln -s /usr/bin/gcc $HOMEBREW_PREFIX/bin/gcc-4.4
+ln -s /usr/bin/g++ $HOMEBREW_PREFIX/bin/g++-4.4
+ln -s /usr/bin/gfortran $HOMEBREW_PREFIX/bin/gfortran-4.4

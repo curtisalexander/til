@@ -1,0 +1,14 @@
+# Description:
+#   Hackpad firewall settings and startup
+
+# Firewall
+# Add
+sudo firewall-cmd --add-rich-rule='rule family="ipv4" source address="10.44.0.0/16" port port="9000" protocol="tcp" accept'
+# Remove
+sudo firewall-cmd --add-rich-rule='rule family="ipv4" source address="10.44.0.0/16" port port="9000" protocol="tcp" accept'
+
+# Startup - requires cd due to relative paths in run.sh
+(cd ~/code/hackpad && exec nohup bin/run.sh > /dev/null 2>&1 &)
+
+# Kill
+ps -ef | grep etherpad.local.properties

@@ -1,0 +1,5 @@
+# From the Homebrew installer
+
+Homebrew has NOT installed npm. If you later install it, you should supplement
+your NODE_PATH with the npm module folder:
+  /home/myuser/.linuxbrew/lib/node_modules

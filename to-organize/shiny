@@ -1,0 +1,35 @@
+# Install - from http://www.rstudio.com/products/shiny/download-server/
+# Install R
+sudo yum install R
+
+# Install Shiny
+sudo su - \
+-c "R -e \"install.packages('shiny', repos='http://cran.rstudio.com/')\""
+
+# Download and Install
+wget http://download3.rstudio.org/centos-5.9/x86_64/shiny-server-1.3.0.403-rh5-x86_64.rpm
+sudo yum install --nogpgcheck shiny-server-1.3.0.403-rh5-x86_64.rpm
+
+# Start
+sudo /sbin/service shiny-server start
+
+# Stop
+sudo /sbin/service shiny-server stop
+
+# Restart
+sudo /sbin/service shiny-server restart 
+
+# Reload
+sudo /sbin/service shiny-server reload
+
+# Status
+sudo /sbin/service shiny-server status 
+
+# Install RMarkdown
+sudo su - -c "R -e \"install.packages('devtools', repos='http://cran.rstudio.com/')\""
+sudo su - -c "R -e \"options('repos'='http://cran.rstudio.com/'); devtools::install_github('rstudio/rmarkdown')\""
+
+# Firewall
+sudo firewall-cmd --add-rich-rule='rule family="ipv4" source address="10.44.0.0/16" port port="3838" protocol="tcp" accept'
+sudo firewall-cmd --remove-rich-rule='rule family="ipv4" source address="10.44.0.0/16" port port="3838" protocol="tcp" accept'
+sudo firewall-cmd --list-all

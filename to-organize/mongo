@@ -1,0 +1,4 @@
+# SELinux issues
+https://jira.mongodb.org/browse/DOCS-4170
+
+sudo chcon -Rv --type=mongod_var_lib_t /work/mongo

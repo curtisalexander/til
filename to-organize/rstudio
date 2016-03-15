@@ -1,0 +1,27 @@
+# Documentation
+# http://support.rstudio.com/hc/en-us/categories/200035113-Documentation
+
+# Stop
+sudo rstudio-server stop
+
+# Start
+sudo rstudio-server start
+
+# Restart
+sudo rstudio-server restart
+
+# Firewall adjustment
+sudo firewall-cmd --add-rich-rule='rule family="ipv4" source address="10.44.0.0/16" port port="8787" protocol="tcp" accept'
+sudo firewall-cmd --remove-rich-rule='rule family="ipv4" source address="10.44.0.0/16" port port="8787" protocol="tcp" accept'
+sudo firewall-cmd --list-all
+
+# Install - from http://www.rstudio.com/products/rstudio/download-server/
+# Install R
+sudo yum install R
+
+# Downloading and Installing
+# sudo yum install openssl098e # Required only for RedHat/CentOS 6 and 7
+wget http://download2.rstudio.org/rstudio-server-rhel-0.99.441-x86_64.rpm
+
+# Install using yum
+sudo yum install --nogpgcheck ~/$FILENAME

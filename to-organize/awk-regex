@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Split based on a regular expression
+
+# The file blah is really the result of running the `id` command but
+# the numbers for the ids were changed to make it more interesting
+ 
+# id > blah
+
+cat <<EOF > blah
+uid=1000(myusername) gid=2000(mygroup) groups=2000(mygroup),10(wheel) context=system_u:unconfined_r:unconfined_t:s0
+EOF
+
+cat blah | awk '{patsplit($0,a,"[[:digit:]]+"); for(i in a) print i, ":", a[i]}'
