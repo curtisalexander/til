@@ -1,0 +1,2 @@
+# Print total number of records
+awk 'END {print NR, "Total Records";}' myfile.txt

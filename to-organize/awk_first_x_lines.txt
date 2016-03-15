@@ -1,0 +1,2 @@
+# To print the first x number of lines without reading in the entire file
+awk '1; NR == 10 { exit }' myfile.txt 

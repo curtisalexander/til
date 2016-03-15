@@ -1,0 +1,9 @@
+# bin directory
+
+* render_adoc filename -- will convert file to html5 and open in browser
+* render_adoc.cmd -- will execute a powershell command from a DOS CMD window; usefule when executing render_adoc from within Sublime
+
+# Sublime
+
+* Created custom build system that uses render_adoc.cmd
+* Ctrl + B will build

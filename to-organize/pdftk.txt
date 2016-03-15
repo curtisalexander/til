@@ -1,0 +1,2 @@
+# Cut last page
+pdftk myfile.pdf cat 1-r2 output myfile_new.pdf

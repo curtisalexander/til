@@ -1,0 +1,2 @@
+git clone dzslides_URL_from_github
+pandoc -t dzslides -s myfile.txt -o myfile.html

@@ -1,0 +1,20 @@
+# All taken from http://unix.stackexchange.com/questions/63923/pseudo-files-for-temporary-data
+
+################
+## Named Pipe ##
+################
+
+mkfifo
+echo -e "hello world\nnext line\nline 3" > fifo
+
+# Above blocks the shell; need to open another shell
+cat fifo
+
+##########################
+## Process Substitution ##
+##########################
+
+# https://en.wikipedia.org/wiki/Process_substitution
+# https://github.com/pkrumins/bash-redirections-cheat-sheet
+csvtomd <( in2csv test.xlsx )
+csvtomd <( in2csv test.xlsx ) > test.md

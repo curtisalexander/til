@@ -1,0 +1,2 @@
+# Execute in the directory that contains the Markdown file(s)
+make all -f md_to_docx.mak

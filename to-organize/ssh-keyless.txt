@@ -1,0 +1,14 @@
+# create a key pair
+ssh-keygen -t rsa -b 4096
+
+# store the keys and optional passphrase
+answer the question as to where to save the file
+  the default is usually fine /home/myuser/.ssh/id_rsa
+
+decide whether or not to include a passphrase
+  if you use a passphrase, you will be prompted for it 
+  every time you utilize the key
+
+# copy the key
+ssh-copy-id myusernameonthishost@hostname
+

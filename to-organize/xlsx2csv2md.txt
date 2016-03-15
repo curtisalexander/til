@@ -1,0 +1,2 @@
+# Convert the file test.xlsx ultimately into a markdown table
+csvtomd <(in2csv test.xlsx) > test.md

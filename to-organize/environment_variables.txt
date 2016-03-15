@@ -1,0 +1,2 @@
+# from windows cmd line
+rundll32 sysdm.cpl,EditEnvironmentVariables

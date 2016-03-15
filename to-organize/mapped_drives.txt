@@ -1,0 +1,4 @@
+# To see the location of mapped drives
+# Execute in a DOS command prompt or Cygwin
+
+net use > mapped_drives.txt

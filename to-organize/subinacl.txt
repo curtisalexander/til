@@ -1,0 +1,4 @@
+# must be run using local admin account
+
+# recursively set the owner on windows
+subinacl /subdirectories "C:\path\to\dir\*.*" /setowner=DOMAIN\username

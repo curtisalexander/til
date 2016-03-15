@@ -1,0 +1,13 @@
+## Simple, symmetric encryption without GPG
+
+# From https://www.madboa.com/geek/openssl/#encrypt-simple
+# You have to remember 1) cipher 2) your passphrase
+
+# Encrypt
+openssl enc -aes-256-cbc -salt -in file.txt -out file.enc
+
+# Decrypt to file
+openssl enc -d -aes-256-cbc -in file.enc -out file.txt
+
+# Decrypt to stdout
+openssl enc -d -aes-256-cbc -in file.enc

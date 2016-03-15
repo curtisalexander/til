@@ -1,0 +1,6 @@
+# Fix X drive
+# As admin within the Windows cmd line
+
+net config server /autodisconnect:-1
+
+net use /persistent:no

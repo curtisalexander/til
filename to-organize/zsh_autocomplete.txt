@@ -1,0 +1,3 @@
+# Help with autocomplete slowness
+# http://blog.en.edaro.net/2014/01/fix-broken-autocompletion-with-zsh-in.html
+fpath=(~/.zsh/site-functions ~/.zsh/5.0.6/functions)

@@ -1,0 +1,5 @@
+# Remove entries from history; for example when using passwords on the command line
+sed -i '/password/d' $HISTFILE
+
+# If get 'illegal bye sequence'
+LC_ALL=C sed -i '/password/d' $HISTFILE

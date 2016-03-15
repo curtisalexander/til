@@ -1,0 +1,2 @@
+# Markdown on the command line
+ansimd $(cygpath -w /cygdrive/c/users/myuser/desktop/notes/sample.md)

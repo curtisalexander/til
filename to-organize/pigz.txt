@@ -1,0 +1,7 @@
+When compiling pigz, you need to switch up the order of the $(LDFLAGS) variable - it must go at the end
+
+http://stackoverflow.com/questions/9700414/compilation-problems-with-zlib
+
+pigz: pigz.o yarn.o try.o ${ZOPFLI}deflate.o ${ZOPFLI}blocksplitter.o ${ZOPFLI}tree.o ${ZOPFLI}lz77.o ${ZOPFLI}cache.o ${ZOPFLI}hash.o ${ZOPFLI}util.o ${ZOPFLI}squeeze.o ${ZOPFLI}katajainen.o
+    $(CC) -o pigz $^ -lpthread -lm $(LDFLAGS)
+    ln -f pigz unpigz

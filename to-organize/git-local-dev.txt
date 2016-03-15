@@ -1,0 +1,25 @@
+# Description:
+#   Use git to manage a local dev / prod environment
+#   within the filesystem
+#
+#   Useful if there is not a centralized server for cloning / pushing
+
+# Setup dev environment
+mkdir /path/to/my/dev ; cd /path/to/my/dev
+git init my_project 
+
+# Edit files in dev environment
+cd /path/to/my/dev/my_project
+touch my_file
+
+# Setup prod environment
+mkdir /path/to/my/prod ; 
+
+# Clone into prod enviornment
+cd /path/to/my/prod
+git clone --no-hardlinks /path/to/my/dev
+
+# After future updates within dev
+cd /path/to/my/prod
+git pull
+

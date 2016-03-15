@@ -1,0 +1,7 @@
+# Encrypt
+
+gpg --symmetric --output myfile.zip.gpg myfile.zip
+
+# Decrypt
+
+gpg myfile.zip.gpg

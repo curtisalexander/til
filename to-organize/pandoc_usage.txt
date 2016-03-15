@@ -1,0 +1,13 @@
+# Standalone HTML
+pandoc -s README -o example2.html
+
+# Markdown to PDF
+pandoc README -o example13.pdf
+
+# DocX
+pandoc -s -S README -o example29.docx
+
+# HTML slide show
+pandoc -s --mathml -i -t dzslides SLIDES -o example16a.html
+pandoc -s --webtex -i -t slidy SLIDES -o example16b.html
+pandoc -s --mathjax -i -t revealjs SLIDES -o example16d.html

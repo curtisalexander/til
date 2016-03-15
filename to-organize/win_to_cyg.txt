@@ -1,0 +1,1 @@
+cd "$(win_to_cyg "\\long\path\to\a\windows\folder")"
