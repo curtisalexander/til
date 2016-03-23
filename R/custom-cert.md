@@ -7,7 +7,7 @@ In order to use `devtools::install_github()` with a custom certificate, perform 
 install.packages("devtools")
 ```
 
-* `devtools` makes use of `httr` for installations.  Thus, add the following to your `.Rprofile`
+* `devtools` makes use of `httr` for installations.  Thus, add the following to your `.Rprofile`.
 ```{r}
-httr::set_config(httr::config(cainfo = 'C:/Users/calex/ca-bundle.crt'))
+httr::set_config(httr::config(cainfo = 'C:/Users/username/ca-bundle.crt'))
 ```
