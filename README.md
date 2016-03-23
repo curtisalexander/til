@@ -26,6 +26,13 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 * [ag - Search for String Within a File](cl/ag-search-string-within.md)
 * [tesseract - Extract Text From a PNG](cl/tesseract-extract-text-from-png.md)
 
+---
+
+### R
+* [Custom Certificate With devtools](R/custom-certificate.md)
+
+---
+
 ### [Standing on the shoulders](https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants)
 I previously used an amalgam of private gists, text files, and (yes) post-it notes to manage these types of small writeups.  Putting everything into is own repo was inspired by (and copied from)
 
