@@ -1,4 +1,4 @@
-# `ag` - Searching for File Extension
+# `ag` - Search for File Extension
 
 Recursively search for all files with a particular extension in the background (assumes it will take quite some time).  For example, search for all files with a `.py` Python extension.
 
