@@ -6,7 +6,7 @@ Today I learned something that...
 * doesn't belong in its own repo
 * isn't something I would use to develop a script
 
-Currently, the collection is composed mostly of system administration tasks.  I hope that this collection of TIL's evolves to include more data science til's.
+Currently, the collection is composed mostly of system administration tasks.  I hope that this collection evolves to include more data science TIL's.
 
 ---
 
