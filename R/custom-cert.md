@@ -1,4 +1,4 @@
-# R - Custom Certificate
+# Custom Certificate With `devtools`
 
 In order to use `devtools::install_github()` with a custom certificate, perform the following.
 
