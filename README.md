@@ -24,6 +24,7 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 * [ag - Building From Source](cl/ag-building-from-source.md)
 * [ag - Search for File Extension](cl/ag-search-file-ext.md)
 * [ag - Search for String Within a File](cl/ag-search-string-within.md)
+* [find - Remove Files Based on Datetime](cl/find-remove-files-datetime.md)
 * [tesseract - Extract Text From a PNG](cl/tesseract-extract-text-from-png.md)
 
 ---
