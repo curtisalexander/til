@@ -32,7 +32,7 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 
 ### R
 * [Custom Certificate With devtools](R/custom-cert.md)
-
+* [Emoji Within RMarkdown](R/emoji-rmarkdown.md)
 ---
 
 ### [Standing on the shoulders](https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants)
