@@ -6,7 +6,7 @@ For example, I have the file `rmarkdown-syntax-highlighting.html` within the [re
 
 In order to achieve this, I create the file `.git\hooks\post-commit` within the `master branch`.
 
-```
+```sh
 #!/bin/sh
 git checkout gh-pages
 git checkout master rmarkdown-syntax-highlighting.html
