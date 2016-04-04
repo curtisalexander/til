@@ -21,7 +21,7 @@ Whenever I commit to the `master` branch, the same commit is also commited to th
 
 Finally, in order to `git push` to both the `origin/master` and `origin/gh-pages` branches, I updated the `.git/config` file to include the following.
 
-```
+```ini
 [core]
     repositoryformatversion = 0
     filemode = true
