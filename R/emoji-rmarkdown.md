@@ -2,7 +2,7 @@
 
 To make use of emoji within RMarkdown, the yaml frontmatter of your RMarkdown document should include the `in_header` option.
 
-```
+```yaml
 ---
 title: "My Title"
 Author: "Curtis Alexander"
@@ -22,7 +22,7 @@ runtime: shiny
 
 Then within the `header.md` file, include the following which points to the [Twitter emoji library](http://twitter.github.io/twemoji/).
 
-```
+```javascript
 <script src="//twemoji.maxcdn.com/2/twemoji.min.js"></script>
 ```
 
