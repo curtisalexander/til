@@ -22,7 +22,7 @@ runtime: shiny
 
 Then within the `header.md` file, include the following which points to the [Twitter emoji library](http://twitter.github.io/twemoji/).
 
-```javascript
+```
 <script src="//twemoji.maxcdn.com/2/twemoji.min.js"></script>
 ```
 
