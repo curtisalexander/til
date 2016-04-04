@@ -46,9 +46,9 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 I previously used an amalgam of private gists, text files, and (yes) post-it notes to manage these types of small writeups.  Putting everything into is own repo was inspired by (and copied from)
 
 * [jbranchaud/til](https://github.com/jbranchaud/til)
-* [thoughtbot/til](https://github.com/thoughtbot/til)
 * [tdhopper's til](http://til.tdhopper.com)
-    * [tdhopper/tdhopper.github.io](https://github.com/tdhopper/tdhopper.github.io)
+    * Github repo - [tdhopper/tdhopper.github.io](https://github.com/tdhopper/tdhopper.github.io)
+* [thoughtbot/til](https://github.com/thoughtbot/til)
 
 ### Licence
 &copy; 2016 Curtis Alexander
