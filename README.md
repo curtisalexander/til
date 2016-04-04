@@ -13,6 +13,7 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 ## Tags
 
 * [Command Line](#command-line)
+* [Git](#git)
 * [Python](#python)
 * [R](#r)
 * [Windows](#windows)
@@ -27,6 +28,11 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 * [find - Remove Files Based on Datetime](cl/find-remove-files-datetime.md)
 * [less - Less Instead of Tail](cl/less-instead-of-tail.md)
 * [tesseract - Extract Text From a PNG](cl/tesseract-extract-text-from-png.md)
+
+---
+
+### Git
+* [Sync master & gh-pages](git/sync-master-gh-pages.md)
 
 ---
 
