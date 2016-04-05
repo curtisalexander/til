@@ -39,6 +39,7 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 ### R
 * [Custom Certificate With devtools](R/custom-cert.md)
 * [Emoji Within RMarkdown](R/emoji-rmarkdown.md)
+* [Debug RJDBC](R/rjdbc-debug.md)
 
 ---
 
