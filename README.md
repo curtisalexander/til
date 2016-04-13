@@ -14,6 +14,7 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 
 * [Command Line](#command-line)
 * [Git](#git)
+* [OSX](#osx)
 * [Python](#python)
 * [R](#r)
 * [Windows](#windows)
@@ -35,6 +36,11 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 
 ### Git
 * [Sync master & gh-pages](git/sync-master-gh-pages.md)
+
+---
+
+### OSX
+* [Custom Certificate](OSX/custom-cert.md)
 
 ---
 
