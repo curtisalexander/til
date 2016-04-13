@@ -18,7 +18,7 @@ On the local machine create the file `~/.ssh/config`.  Below is a sample file.
 # %l = local hostname
 # %r = remote username
 # %h = remote hostname
-Host crprsklnx02
+Host remotehost
     HostName remotehost.domain.com
     Port 22
     User username
