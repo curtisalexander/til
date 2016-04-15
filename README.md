@@ -29,8 +29,8 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 * [find - Remove Files Based on Datetime](cl/find-remove-files-datetime.md)
 * [less - Less Instead of Tail](cl/less-instead-of-tail.md)
 * [ssh - SSH Config](cl/ssh-config.md)
-* [tree - Tree Replacement](cl/tree-replacement.md)
 * [tesseract - Extract Text From a PNG](cl/tesseract-extract-text-from-png.md)
+* [tree - Tree Replacement](cl/tree-replacement.md)
 
 ---
 
