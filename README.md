@@ -28,8 +28,8 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 * [ag - Search for String Within a File](cl/ag-search-string-within.md)
 * [find - Remove Files Based on Datetime](cl/find-remove-files-datetime.md)
 * [less - Less Instead of Tail](cl/less-instead-of-tail.md)
-* [ssh - SSH Config](cl/ssh-config.md)
 * [Shell Scripting Cheatsheet](cl/shell-scripting-cheatsheet.md)
+* [ssh - SSH Config](cl/ssh-config.md)
 * [tesseract - Extract Text From a PNG](cl/tesseract-extract-text-from-png.md)
 * [tree - Tree Replacement](cl/tree-replacement.md)
 
@@ -55,6 +55,8 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 
 ### Windows
 * Under construction :construction_worker: :construction:
+
+---
 
 ### [Standing on the shoulders](https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants)
 I previously used an amalgam of private gists, text files, and (yes) post-it notes to manage these types of small writeups.  Putting everything into is own repo was inspired by (and copied from)
