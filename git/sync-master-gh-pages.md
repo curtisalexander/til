@@ -4,7 +4,7 @@ The following keeps a single html file within the `master` branch of a repo sync
 
 For example, I have the file `rmarkdown-syntax-highlighting.html` within the [repo](https://github.com/curtisalexander/rmarkdown-syntax-highlighting) of the same name.  This is the file that I would like to serve at http://curtisalexander.github.io/rmarkdown-syntax-highlighting/.  In order to do so, I copy this file into the `gh-pages` branch of the repo and rename the file as `index.html`.
 
-In order to achieve this, I create the file `.git\hooks\post-commit` within the `master branch`.
+In order to achieve this, I created the file `.git\hooks\post-commit` within the `master branch`.
 
 ```sh
 #!/bin/sh
