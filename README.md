@@ -28,7 +28,7 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 * [ag - Search for String Within a File](cl/ag-search-string-within.md)
 * [find - Remove Files Based on Datetime](cl/find-remove-files-datetime.md)
 * [less - Less Instead of Tail](cl/less-instead-of-tail.md)
-* [Shell Scripting Cheatsheet](cl/shell-scripting-cheatsheet.md)
+* [sh - Shell Scripting Cheatsheet](cl/shell-scripting-cheatsheet.md)
 * [ssh - SSH Config](cl/ssh-config.md)
 * [tesseract - Extract Text From a PNG](cl/tesseract-extract-text-from-png.md)
 * [trap - Trap and Cleanup Shell Script](cl/trap-cleanup.md)
