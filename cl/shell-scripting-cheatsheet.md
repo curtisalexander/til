@@ -24,5 +24,30 @@ Summary of shell (`bash` or `zsh`) logic.
 
 ```sh
 -d      	true if directory exists
--z			true if string is null 	
+-e          true if file exists
+-f          true if file exists and is a regular file
+-h          true if file exists and is a symbolic link
+-n          true if the length of string is non-zero
+-o          true if the shell option is enabled
+-z			true if the length of the string is zero
+```
+
+## Comparisons
+
+Comparisons between strings vs integers.
+
+```sh
+# strings
+string1 == string2
+string1 != string2
+string1 < string2   # lexicographic sorting
+string1 > string2   # lexicographic sorting
+
+# integers
+arg1 -eq arg2
+arg1 -ne arg2
+arg1 -lt arg2
+arg1 -le arg2
+arg1 -gt arg2
+arg1 -ge arg2
 ```
