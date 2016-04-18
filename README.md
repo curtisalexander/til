@@ -43,6 +43,7 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 
 ### OSX
 * [Custom Certificate](OSX/custom-cert.md)
+* [Homebrew - Check If a Package Is Installed](OSX/homebrew-package-installed.md)
 
 ---
 
