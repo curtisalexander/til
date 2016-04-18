@@ -51,3 +51,6 @@ arg1 -le arg2
 arg1 -gt arg2
 arg1 -ge arg2
 ```
+
+## Further Reading
+See the [Bash FAQ](http://mywiki.wooledge.org/BashFAQ/031) for a difference between `[` and `[[`.
