@@ -28,7 +28,8 @@ realpath() {
 Within a bash script, utilize in the following way.
 
 ```bash
-SCRIPT_DIR="$(realpath "$@")"
+SCRIPT="$(realpath "$0")"
+SCRIPT="$(dirname $(realpath "$@"))"
 ```
 
 For an example, see [rproject-init](https://github.com/curtisalexander/rprofile-init/blob/master/rprofile-init).
