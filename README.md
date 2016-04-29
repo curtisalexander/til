@@ -34,6 +34,7 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 * [tesseract - Extract Text From a PNG](cl/tesseract-extract-text-from-png.md)
 * [trap - Trap and Cleanup Shell Script](cl/trap-cleanup.md)
 * [tree - Tree Replacement](cl/tree-replacement.md)
+* [xml - Format XML In-Place](xmllint-in-place.md)
 
 ---
 
