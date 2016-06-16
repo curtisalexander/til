@@ -3,7 +3,7 @@ I have need to utilize a custom certificate on my OSX machine.  In order to make
 
 One workaround is [similar](homebrew-conda-certs.md#homebrew) to they way in which I intercept the call to `brew`.  Below is an example where I remove the environment variables from the executing environment and then make a system call to `curl`.
 
-In Python, whenever `os` is imported a Python dictionary, `os.environ`, is created containing all environment variables.  In the `del` statement below, I am deleting the environment variables from the dictionary `os.environ`.  When I make a call to the shell using `subprocess`, the environment variables within `os.environ` are passed along.  But after the script completes, the environment variables have not been permanently delted.  The `del` operation in Python is **not** equivalent to `unset` in a shell script.
+In Python, whenever `os` is imported a Python dictionary, `os.environ`, is created containing all environment variables.  In the `del` statement below, I am deleting the environment variables from the dictionary `os.environ`.  When I make a call to the shell using `subprocess`, the environment variables within `os.environ` are passed along (which will exclude `SSL_CERT_DIR` and `SSL_CERT_FILE`).  But after the script completes, the environment variables have not been permanently delted.  The `del` operation in Python is **not** equivalent to `unset` in a shell script.
 
 ```
 #!/usr/bin/env python
