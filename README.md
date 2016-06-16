@@ -44,6 +44,7 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 ---
 
 ### OSX
+* [cURL and Certificates](OSX/curl-certs.md)
 * [Custom Certificate](OSX/custom-cert.md)
 * [Excel Compare](OSX/excel-compare.md)
 * [Homebrew - Check If a Package Is Installed](OSX/homebrew-package-installed.md)
