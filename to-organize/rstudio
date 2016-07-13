@@ -2,13 +2,13 @@
 # http://support.rstudio.com/hc/en-us/categories/200035113-Documentation
 
 # Stop
-sudo rstudio-server stop
+cd /etc/rstudio; sudo rstudio-server stop
 
 # Start
-sudo rstudio-server start
+cd /etc/rstudio; sudo rstudio-server start
 
 # Restart
-sudo rstudio-server restart
+cd /etc/rstudio; sudo rstudio-server restart
 
 # Firewall adjustment
 sudo firewall-cmd --add-rich-rule='rule family="ipv4" source address="10.44.0.0/16" port port="8787" protocol="tcp" accept'

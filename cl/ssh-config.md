@@ -39,3 +39,6 @@ ssh-copy-id -i ~/.ssh/localhost_remoteuser@remotehost_id_rsa.pub username@remote
 ```
 
 and enter your password when prompted.
+
+### Inspiration
+Inspired by http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/.
