@@ -48,10 +48,7 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 * [Custom Certificate](OSX/custom-cert.md)
 * [Excel Compare](OSX/excel-compare.md)
 * [Homebrew - Check If a Package Is Installed](OSX/homebrew-package-installed.md)
-<<<<<<< HEAD
-=======
 * [Homebrew and Conda Certificates](OSX/homebrew-conda-certs.md)
->>>>>>> 9a8ff49b6141a46f2bb539d93dbdb5d204ad13b1
 * [Markdown Within Outlook](OSX/markdown-within-outlook.md)
 * [Unmount Disk](OSX/unmount-disk.md)
 
