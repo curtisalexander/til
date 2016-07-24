@@ -1,6 +1,6 @@
 # Sparse Clone
 
-What if I only want to `git clone` a subdirectory from [github](github.com)?
+What if I only want to `git clone` a subdirectory from [github](https://github.com)?
 
 The example below clones just the `iterm2` color schemes from [junegunn/seoul256.vim](https://github.com/junegunn/seoul256.vim)
 
