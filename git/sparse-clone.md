@@ -1,4 +1,4 @@
-# Sparse Checkout
+# Sparse Clone
 
 What if I only want to `git clone` a subdirectory from [github](github.com)?
 
