@@ -39,6 +39,7 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 ---
 
 ### Git
+* [Sparse clone](git/sparse-clone.md)
 * [Sync master & gh-pages](git/sync-master-gh-pages.md)
 
 ---
