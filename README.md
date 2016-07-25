@@ -42,6 +42,7 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 * [Private on Github](git/private-on-github.md)
 * [Sparse clone](git/sparse-clone.md)
 * [Sync master & gh-pages](git/sync-master-gh-pages.md)
+
 ---
 
 ### OSX
