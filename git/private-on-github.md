@@ -24,6 +24,11 @@ git add -A
 git commit -m 'added mypw'
 git push -u private dotfiles-private
 
+# merge changes from `master` branch into `dotfiles-private`
+git checkout dotfiles-private
+git merge master
+git push
+
 # merge changes from `dotfiles-private` branch into `master`
 #   appropriate when using the private remote as a storage for draft content
 git checkout master
