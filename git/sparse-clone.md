@@ -25,4 +25,4 @@ git pull origin master
 # git pull --depth=1 origin master
 ```
 
-From the [stackexchange] answer by [muru](http://unix.stackexchange.com/a/233335).
+From the stackexchange answer by [muru](http://unix.stackexchange.com/a/233335).
