@@ -70,7 +70,7 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 ---
 
 ### Windows
-* Under construction :construction_worker: :construction:
+* [Mapped Drives](Windows/mapped-drives.md)
 
 ---
 
