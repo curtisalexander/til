@@ -17,6 +17,7 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 * [OSX](#osx)
 * [Python](#python)
 * [R](#r)
+* [Spark](#spark)
 * [Windows](#windows)
     * Because nothing is ever as straightforward in Windows
 
@@ -68,6 +69,10 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 * [Emoji Within RMarkdown](R/emoji-rmarkdown.md)
 * [Transpose List](R/transpose-list.md)
 
+---
+
+### Spark
+* [Spark Versio](Spark/spark-version.md)
 ---
 
 ### Windows
