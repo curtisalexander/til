@@ -28,6 +28,7 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 * [ag - Search for String Within a File](cl/ag-search-string-within.md)
 * [bash - Bash realpath Function](cl/bash-realpath.md)
 * [find - Remove Files Based on Datetime](cl/find-remove-files-datetime.md)
+* [kerberos - Update PW](cl/kerberos-update-pw.md)
 * [less - Less Instead of Tail](cl/less-instead-of-tail.md)
 * [sh - Shell Scripting Cheatsheet](cl/shell-scripting-cheatsheet.md)
 * [ssh - SSH Config](cl/ssh-config.md)
