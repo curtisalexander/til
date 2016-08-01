@@ -72,7 +72,8 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 ---
 
 ### Spark
-* [Spark Versio](Spark/spark-version.md)
+* [Spark Version](Spark/spark-version.md)
+
 ---
 
 ### Windows
