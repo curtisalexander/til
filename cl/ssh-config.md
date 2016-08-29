@@ -18,9 +18,11 @@ On the local machine create the file `~/.ssh/config`.  Below is a sample file.
 # %l = local hostname
 # %r = remote username
 # %h = remote hostname
-Host remotehost
-    HostName remotehost.domain.com
+Host *
     Port 22
+    ServerAliveInterval 60
+Host remotehost
+    HostName remotehost.domain.com remotehost
     User username
     IdentityFile ~/.ssh/%l_%r@%h_id_rsa
 ```
@@ -40,5 +42,23 @@ ssh-copy-id -i ~/.ssh/localhost_remoteuser@remotehost_id_rsa.pub username@remote
 
 and enter your password when prompted.
 
-### Inspiration
-Inspired by http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/.
+### Alternative
+As an alternative, name the key as `~/.ssh/remoteuser@remotehost_id_rsa`.  This is necessary when working on my work computer as my hostname changes when I am working within the corporate network or outside the network.  
+
+Thus, `~/.ssh/config` will mirror the sample file below.
+
+
+```
+# %r = remote username
+# %h = remote hostname
+Host *
+    Port 22
+    ServerAliveInterval 60
+Host remotehost
+    HostName remotehost.domain.com remotehost
+    User username
+    IdentityFile ~/.ssh/%r@%h_id_rsa
+```
+
+### Source
+Adapted from http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/.
