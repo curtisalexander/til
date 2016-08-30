@@ -91,7 +91,7 @@ git commit -m "$(git log -1 master --pretty=%B)"
 git checkout --quiet master
 ```
 
-Ensure that the newly create files, `.git/hooks/post-commit` is executable as it is in fact a shell script.
+Ensure that the newly created file, `.git/hooks/post-commit` is executable as it is in fact a shell script.
 
 ```bash
 chmod +x .git/hooks/post-commit
