@@ -56,7 +56,7 @@ git push
 ```
 
 ## Sync Private with Public 
-Following up on Jenny Bryan's **tweet**, I have outlined how one could use a [git post-commit hook](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) to keep a private branch in sync with the public.  The scenario assumed is that you would like to have your private repository mirror your public repository.  The only difference is that within your private branch you would like to keep a file or set of files private.
+Following up on Jenny Bryan's [tweet](https://twitter.com/JennyBryan/status/770526265623273472), I have outlined how one could use a [git post-commit hook](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) to keep a private branch in sync with the public.  The scenario assumed is that you would like to have your private repository mirror your public repository.  The only difference is that within your private branch you would like to keep a file or set of files private.
 
 The example below is derived from an earlier TIL I wrote - [Sync master & gh-pages](git/sync-master-gh-pages.md).
 
