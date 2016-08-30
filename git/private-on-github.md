@@ -11,7 +11,7 @@ Before getting to the details, a brief warning.
 ### WARNING
 If you use the methodology I outline below, then the most important thing to remember is this
 
-> If you `git clone` the private/public repo on a new machine, you will need to setup your remote again!
+> If you `git clone` the private/public repo on a new machine, you will need to setup your remotes again!
 
 Failing to remember this fact is perhaps a reason why others choose to encrypt files in lieu of managing separate remotes via branches.
 
@@ -58,7 +58,7 @@ git push
 ## Sync Private with Public 
 Following up on Jenny Bryan's [tweet](https://twitter.com/JennyBryan/status/770526265623273472), I have outlined how one could use a [git post-commit hook](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) to keep a private branch in sync with the public.  The scenario assumed is that you would like to have your private repository mirror your public repository.  The only difference is that within your private branch you would like to keep a file or set of files private.
 
-The example below is derived from an earlier TIL I wrote - [Sync master & gh-pages](git/sync-master-gh-pages.md).
+The example below is derived from an earlier TIL I wrote - [Sync master & gh-pages](sync-master-gh-pages.md).
 
 To begin, within your public branch create the file `.git/hooks/post-commit`.  In my example, my public branch is actually my `master` branch.
 
