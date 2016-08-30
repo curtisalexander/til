@@ -111,9 +111,10 @@ git commit -m 'add ls -a as an alias to bashrc'
 diff <(tail -5 bashrc) <(git checkout --quiet dotfiles-private; tail -5 bashrc; git checkout --quiet master)
 ```
 
-Finally, I have not determined a manner to push both the public and private branches to their respective remotes simultaneously.  But to push both is as simple as executing the following.
+Finally, I have not determined a manner to `git push` both the public and private branches to their respective remotes with a single command.  But to `git push` each separately is as simple as executing the following.
 
 ```bash
+# see notes above for setting remotes for each branch
 git push origin master
 git push private dotfiles-private
 ```
