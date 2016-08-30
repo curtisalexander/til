@@ -68,7 +68,7 @@ To begin, within your public branch create the file `.git/hooks/post-commit`.  I
 cd ~/code/dotfiles
 git checkout master
 
-# now actually make open and edit the file .git/hooks/post-commit
+# now actually open and edit the file .git/hooks/post-commit
 {vim,emacs,nano,code,subl,atom} .git/hooks/post-commit
 ```
 
