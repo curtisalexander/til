@@ -78,7 +78,7 @@ The post-commit hook is actually just a shell script that executes after every c
 #!/bin/sh
 
 # checkout the private branch
-git checkout dotfiles-private
+git checkout --quiet dotfiles-private
 
 # don't immediately commit
 git merge --no-commit master
@@ -88,7 +88,7 @@ git merge --no-commit master
 git commit -m "$(git log -1 master --pretty=%B)"
 
 # checkout master to revert back to original state
-git checkout master
+git checkout --quiet master
 ```
 
 Ensure that the newly create files, `.git/hooks/post-commit` is executable as it is in fact a shell script.
