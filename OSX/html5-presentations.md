@@ -11,11 +11,28 @@ Instead of opening a local HTML5 presentation via double-click (or via `open` on
 
 set -e
 
+# realpath - works on OSX and Linux
+realpath() {
+    local _PWD="$(pwd)"
+    cd "$(dirname "$1")"
+    local _LINK="$(readlink "$(basename "$1")")"
+    while [ "${_LINK}" ]; do
+        cd "$(dirname "${_LINK}")"
+        _LINK="$(readlink "$(basename "${1}")")"
+    done
+    local _REALPATH="${PWD}/$(basename "${1}")"
+    REALPATH="${_REALPATH%/}"
+    cd "${_PWD}"
+    echo "${REALPATH}"
+}
+
+# presentation
 PREZ="${1}"
 
 # n = non-zero length string
 if [ -n "${PREZ}" ]; then
-   /Applications/Vivaldi.app/Contents/MacOS/Vivaldi --app=file://${PREZ}
+    PREZ_PATH=$(realpath "${PREZ}")
+    /Applications/Vivaldi.app/Contents/MacOS/Vivaldi --app=file://${PREZ_PATH}
 else
 	echo -e "\nUsage:"
 	echo -e "  $(basename $0) presentation.html\n"
