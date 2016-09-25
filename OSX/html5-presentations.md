@@ -14,8 +14,8 @@ set -e
 # realpath - works on OSX and Linux
 realpath() {
     local _PWD="$(pwd)"
-    cd "$(dirname "$1")"
-    local _LINK="$(readlink "$(basename "$1")")"
+    cd "$(dirname "${1}")"
+    local _LINK="$(readlink "$(basename "${1}")")"
     while [ "${_LINK}" ]; do
         cd "$(dirname "${_LINK}")"
         _LINK="$(readlink "$(basename "${1}")")"
