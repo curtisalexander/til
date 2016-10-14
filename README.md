@@ -52,6 +52,7 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 * [cURL and Certificates](OSX/curl-certs.md)
 * [Custom Certificate](OSX/custom-cert.md)
 * [Excel Compare](OSX/excel-compare.md)
+* [Flash](OSX/flash.md)
 * [HTML5 Presentations](OSX/html5-presentations.md)
 * [Homebrew - Check If a Package Is Installed](OSX/homebrew-package-installed.md)
 * [Homebrew and Conda Certificates](OSX/homebrew-conda-certs.md)
