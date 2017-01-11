@@ -2,14 +2,17 @@
 
 Various searches using [ripgrep](https://github.com/BurntSushi/ripgrep).  Examples below are for `rigpgrep 0.3.2`.
 
-## Windows
+### Windows
 Within the Windows command prompt, quoting must be done using double quotes -- `"*.sas"`.
 
-## Defaults
+### Defaults
 * if pattern lowercase, then case insensitive
 * recursive
+* filenames as headers
+* line numbers
+* ignore binary
 
-## Search examples
+### Search examples
 
 **search context:** within files
 **options:**
