@@ -32,6 +32,7 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 * [find - Remove Files Based on Datetime](cl/find-remove-files-datetime.md)
 * [kerberos - Update PW](cl/kerberos-update-pw.md)
 * [less - Less Instead of Tail](cl/less-instead-of-tail.md)
+* [ripgrep - Search Examples](cl/ripgrep.md)
 * [sh - Shell Scripting Cheatsheet](cl/shell-scripting-cheatsheet.md)
 * [ssh - SSH Config](cl/ssh-config.md)
 * [tesseract - Extract Text From a PNG](cl/tesseract-extract-text-from-png.md)
