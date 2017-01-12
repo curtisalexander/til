@@ -24,28 +24,28 @@ pushd \\some\network\path\dir
 
 **search context:** within files<br>
 **options:** specific extension
-
+<br>
 ```
 rg --type-add "sas:*.sas" -tsas "proc means"
 ```
-
+<br><br>
 **search context:** filenames<br>
 **options:** specific extension
-
+<br>
 ```
 rg --type-add "sas:*.sas" -tsas --files
 ```
-
+<br><br>
 **search context:** filenames<br>
 **options:** glob
-
+<br>
 ```
 rg -g "*proposal*" --files
 ```
-
+<br><br>
 **search context:** filenames<br>
 **options:** specific extension, glob
-
+<br>
 ```
 rg -g "*final*" --files --type-add "prez: *.{pdf,pptx}" -tprez
 ```
