@@ -23,25 +23,29 @@ pushd \\some\network\path\dir
 ### Search examples
 
 **search context:** within files<br>
-**options:**<br>
-* specific extension
+**options:** specific extension
 
 ```
 rg --type-add "sas:*.sas" -tsas "proc means"
 ```
 
 **search context:** filenames<br>
-**options:**<br>
-* specific extension
+**options:** specific extension
 
 ```
 rg --type-add "sas:*.sas" -tsas --files
 ```
 
 **search context:** filenames<br>
-**options:**<br>
-* glob
+**options:** glob
 
 ```
-rg -g *proposal* --files
+rg -g "*proposal*" --files
+```
+
+**search context:** filenames<br>
+**options:** specific extension, glob
+
+```
+rg -g "*final*" --files --type-add "prez: *.{pdf,pptx}" -tprez
 ```
