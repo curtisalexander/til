@@ -21,12 +21,19 @@ pushd \\some\network\path\dir
 * ignore binary files
 
 ### Search examples
-
+<br><br>
 **search context:** within files<br>
 **options:** specific extension
 <br>
 ```
 rg --type-add "sas:*.sas" -tsas "proc means"
+```
+<br><br>
+**search context:** within files<br>
+**options:** specific extension, redirect stdout to file
+<br>
+```
+rg --heading --line-number --type-add "sas:*.sas" -tsas "proc means" > proc_means_search_results.txt
 ```
 <br><br>
 **search context:** filenames<br>
