@@ -1,6 +1,6 @@
 # `rg`
 
-Searches using [ripgrep](https://github.com/BurntSushi/ripgrep).  Examples below tested on `rigpgrep 0.3.2`.
+Searches using [ripgrep](https://github.com/BurntSushi/ripgrep).  Examples below tested on `rigpgrep 0.4.0`.
 
 ### Windows
 **Quotes**<br>
@@ -19,8 +19,8 @@ pushd \\some\network\path\dir
 * filenames as headers
 * line numbers
 * ignore binary files
-
-### Search examples
+<br><br>
+## Search examples
 <br><br>
 **search context:** within files<br>
 **options:** specific extension
