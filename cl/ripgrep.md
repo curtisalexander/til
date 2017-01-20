@@ -21,7 +21,7 @@ pushd \\some\network\path\dir
 * ignore binary files
 
 ## Search examples
-<br><br>
+
 **search context:** within files<br>
 **options:** specific extension
 <br>
