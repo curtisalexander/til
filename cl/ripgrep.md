@@ -19,7 +19,7 @@ pushd \\some\network\path\dir
 * filenames as headers
 * line numbers
 * ignore binary files
-<br><br>
+
 ## Search examples
 <br><br>
 **search context:** within files<br>
