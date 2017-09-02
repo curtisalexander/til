@@ -1,9 +1,9 @@
-# ExcelCompare on OSX
-In order to use [ExcelCompare](https://github.com/na-ka-na/ExcelCompare/) on OSX, the wrapper script `excel_cmp` needs to be updated.
+# ExcelCompare on macOS
+In order to use [ExcelCompare](https://github.com/na-ka-na/ExcelCompare/) on macOS, the wrapper script `excel_cmp` needs to be updated.
 
-The command `readlink -f` does not exist on OSX.  Thus, a `realpath` alternative needs to be used in order to resolve symbolic links appropriately.  See [bash - Bash realpath Function](../cl/bash-realpath.md) for information on `realpath` on OSX.
+The command `readlink -f` does not exist on macOS.  Thus, a `realpath` alternative needs to be used in order to resolve symbolic links appropriately.  See [bash - Bash realpath Function](../cl/bash-realpath.md) for information on `realpath` on macOS.
 
-Below is the re-written `excel_cmp` file that works on OSX.
+Below is the re-written `excel_cmp` file that works on macOS.
 
 ```bash
 #!/usr/bin/env sh

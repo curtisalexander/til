@@ -32,7 +32,7 @@ PREZ="${1}"
 # n = non-zero length string
 if [ -n "${PREZ}" ]; then
     PREZ_PATH=$(realpath "${PREZ}")
-    /Applications/Vivaldi.app/Contents/MacOS/Vivaldi --app=file://${PREZ_PATH}
+    /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --app=file://${PREZ_PATH}
 else
 	echo -e "\nUsage:"
 	echo -e "  $(basename $0) presentation.html\n"

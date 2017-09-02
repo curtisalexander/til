@@ -1,4 +1,4 @@
-# Unmount a Disk on OS X
+# Unmount a Disk on macOS
 Simple as the title suggests...
 
 

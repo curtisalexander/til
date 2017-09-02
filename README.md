@@ -14,7 +14,7 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 
 * [Command Line](#command-line)
 * [Git](#git)
-* [OSX](#osx)
+* [macOS](#macOS)
 * [Python](#python)
 * [R](#r)
 * [Spark](#spark)
@@ -49,16 +49,16 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 
 ---
 
-### OSX
-* [cURL and Certificates](OSX/curl-certs.md)
-* [Custom Certificate](OSX/custom-cert.md)
-* [Excel Compare](OSX/excel-compare.md)
-* [Flash](OSX/flash.md)
-* [HTML5 Presentations](OSX/html5-presentations.md)
-* [Homebrew - Check If a Package Is Installed](OSX/homebrew-package-installed.md)
-* [Homebrew and Conda Certificates](OSX/homebrew-conda-certs.md)
-* [Markdown Within Outlook](OSX/markdown-within-outlook.md)
-* [Unmount Disk](OSX/unmount-disk.md)
+### macOS 
+* [cURL and Certificates](macOS/curl-certs.md)
+* [Custom Certificate](macOS/custom-cert.md)
+* [Excel Compare](macOS/excel-compare.md)
+* [Flash](macOS/flash.md)
+* [HTML5 Presentations](macOS/html5-presentations.md)
+* [Homebrew - Check If a Package Is Installed](macOS/homebrew-package-installed.md)
+* [Homebrew and Conda Certificates](macOS/homebrew-conda-certs.md)
+* [Markdown Within Outlook](macOS/markdown-within-outlook.md)
+* [Unmount Disk](macOS/unmount-disk.md)
 
 ---
 

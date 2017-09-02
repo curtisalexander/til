@@ -1,5 +1,5 @@
 # Homebrew and Conda Certficates
-I have need to utilize a custom certificate when making https requests on my OSX machine.  Because of this, I often have to adjust various environment variables.  But in order to be able to use [homebrew](http://brew.sh) as well as [conda](http://conda.pydata.org/miniconda.html) simultaneously, I have to resort to some trickery.
+I have need to utilize a custom certificate when making https requests on my macOS machine.  Because of this, I often have to adjust various environment variables.  But in order to be able to use [homebrew](http://brew.sh) as well as [conda](http://conda.pydata.org/miniconda.html) simultaneously, I have to resort to some trickery.
 
 ## conda
 There are two different ways in which I use conda.

@@ -1,5 +1,5 @@
 # cURL and Certificates
-I have need to utilize a custom certificate on my OSX machine.  In order to make some software work, I have to set the environment variables `SSL_CERT_DIR` and `SSL_CERT_FILE`.  Unfortunately, when these environment variables are set on OSX, `curl` doesn't work as expected.
+I have need to utilize a custom certificate on my macOS machine.  In order to make some software work, I have to set the environment variables `SSL_CERT_DIR` and `SSL_CERT_FILE`.  Unfortunately, when these environment variables are set on macOS, `curl` doesn't work as expected.
 
 One workaround is [similar](homebrew-conda-certs.md#homebrew) to they way in which I intercept the call to `brew`.  Below is an example where I remove the environment variables from the executing environment and then make a system call to `curl`.
 
@@ -13,7 +13,7 @@ import shlex
 import subprocess
 
 # delete environment variables
-# this is necessary because of the way curl works on OSX
+# this is necessary because of the way curl works on macOS 
 
 del os.environ['SSL_CERT_DIR']
 del os.environ['SSL_CERT_FILE']
