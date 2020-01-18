@@ -60,7 +60,11 @@ mkdir ~/.ssh/
 Copy the file from windows to the remote host.
 
 ```powershell
+# default port
 scp authorized_keys user@remote:~/.ssh
+
+# custom port
+scp -P portno authorized_keys user@remote:~/.ssh
 ```
 
 Finally, back on the remote host make sure permissions are set correctly.
