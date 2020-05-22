@@ -30,7 +30,7 @@ Currently, the collection is composed mostly of system administration tasks.  I 
 * [bash - Bash realpath Function](cl/bash-realpath.md)
 * [bash - sudo Within Bash Scripts](cl/bash-sudo-script.md)
 * [find - Remove Files Based on Datetime](cl/find-remove-files-datetime.md)
-* [kerberos - Update PW](cl/kerberos-update-pw.md)
+* [kerberos](cl/kerberos.md)
 * [less - Less Instead of Tail](cl/less-instead-of-tail.md)
 * [ripgrep - Search Examples](cl/ripgrep.md)
 * [sh - Shell Scripting Cheatsheet](cl/shell-scripting-cheatsheet.md)
